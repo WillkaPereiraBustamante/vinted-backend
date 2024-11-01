@@ -23,7 +23,7 @@ cloudinary.config({
   });
 
 app.get("/", (req, res) => {
-        res.status(200).json({ message: "Bienvenue su Vinted" });
+        res.status(200).json({ message: "Bienvenue sur Vinted" });
 });
 
 app.all("*", (req, res) => {
